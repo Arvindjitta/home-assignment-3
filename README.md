@@ -33,3 +33,8 @@ cd home-assignment-3
 pip install -r requirements.txt      # tensorflow, scikit-learn, opencv-python, etc.
 jupyter notebook                     # or open the notebooks directly in Google Colab
 ```
+
+## Video Submission
+
+Video demonstrating the code and explaining the results.  
+**Video Link:** [Watch Here](https://www.loom.com/share/e8b1a359a1674a478e55795fa7669dc9?sid=a31eb641-81b7-4554-b873-ca01ef624119)
