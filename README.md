@@ -1,4 +1,4 @@
-# CS5720 Neural Networks and Deep Learning – Home Assignment 3
+# CS5720 Neural Networks and Deep Learning – Home Assignment 4
 
 ## Student Information
 
@@ -12,29 +12,40 @@
 
 ## Assignment Details
 
-This repository contains the code and documentation for **Home Assignment 3** (Chapters 7 & 8). The tasks focus on autoencoders, sequence modelling with LSTMs, and sentiment analysis.
+This repository contains the code and documentation for **Home Assignment 4** (Chapters 9 & 10). The tasks focus on Natural Language Processing (NLP), including preprocessing, named entity recognition, attention mechanisms, and transformers.
 
 ### Tasks Covered
 
-| Question | Topic                    | Brief Description                                                          |
-| -------- | ------------------------ | -------------------------------------------------------------------------- |
-| **Q1**   | Basic Autoencoder        | Fully‑connected autoencoder on MNIST; experiments with latent sizes.       |
-| **Q2**   | Denoising Autoencoder    | Adds Gaussian noise and trains the model to reconstruct clean digits.      |
-| **Q3**   | LSTM Text Generation     | Character‑level Shakespeare generator with temperature sampling.           |
-| **Q4**   | Sentiment Classification | IMDB review classifier using an LSTM; includes confusion matrix & metrics. |
+| Question | Topic                        | Brief Description                                                  |
+| -------- | ---------------------------- | ------------------------------------------------------------------ |
+| **Q1**   | NLP Preprocessing Pipeline   | Tokenization, stopword removal, and stemming using NLTK.           |
+| **Q2**   | Named Entity Recognition     | spaCy-based NER system that identifies and labels named entities.  |
+| **Q3**   | Scaled Dot-Product Attention | Manual implementation of scaled dot-product attention using NumPy. |
+| **Q4**   | Sentiment Analysis           | HuggingFace pipeline to classify sentiment of a given sentence.    |
 
 ---
 
 ## How to Run
 
-```bash
-git clone https://github.com/<your‑user>/home-assignment-3.git
-cd home-assignment-3
-pip install -r requirements.txt      # tensorflow, scikit-learn, opencv-python, etc.
-jupyter notebook                     # or open the notebooks directly in Google Colab
-```
+All four questions are implemented in a single Google Colab notebook.
+
+📁 **Colab Notebook File Name:** `Home Work 4.ipynb`
+
+You can either run it locally or open it in Colab:
+
+[🔗 Open in Google Colab](https://colab.research.google.com/drive/1agoQgbUdkmx_IIfygx8TQsD8STzX7vw8?usp=sharing)
+
+---
 
 ## Video Submission
 
-Video demonstrating the code and explaining the results.  
-**Video Link:** [Watch Here](https://www.loom.com/share/e8b1a359a1674a478e55795fa7669dc9?sid=a31eb641-81b7-4554-b873-ca01ef624119)
+The video demonstrates each question's code execution and explains the logic behind it.  
+**Video Link:** [Watch Here](https://www.loom.com/share/64b1c2cf081b4b9e9e0c7518007c45b7?sid=05a39d29-2519-4cf1-80f4-1b664d5e4ba0)
+
+---
+
+## Notes
+
+- Code is well-commented and modular.
+- Output and short answer responses are clearly printed where required.
+- All external dependencies (e.g., `nltk`, `spacy`, `transformers`) are installed within the notebook.
